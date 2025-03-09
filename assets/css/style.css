@@ -1,4 +1,32 @@
+
+
+
+.todo {
+    display: flex;
+}
+
 .contactos {
     display: flex;
     flex-direction: column;
+}
+
+.boton {
+    color: white;
+    padding: 1em;
+    background-color: aquamarine;
+}
+
+.mano {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mano h2 {
+    font-size: xx-large;
+}
+.mano p {
+
+    text-align: center;
+    
 }
