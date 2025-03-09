@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
 
 
 .todo {
@@ -8,12 +10,45 @@
 .contactos {
     display: flex;
     flex-direction: column;
+    width: 400px;
+    
+
+}
+
+
+.iconos {
+    display: flex;
+    justify-content: center
+
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    
 }
 
 .boton {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    padding: 1em;
-    background-color: aquamarine;
+    border: solid 1px #BEC1BB;
+    background-color: #A491D2;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.foto {
+    display: flex;
+    margin: 0.5em;
+    border: solid 1px #BEC1BB;
+    margin: 0;
+    padding: 0.6em;
+    padding-left: 0,5 em;
 }
 
 .mano {
@@ -21,12 +56,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    background-color: #E8EBE4;
 }
+
 .mano h2 {
     font-size: xx-large;
 }
+
 .mano p {
 
     text-align: center;
-    
+
 }
