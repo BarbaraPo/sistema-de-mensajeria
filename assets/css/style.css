@@ -11,34 +11,40 @@ body {
     display: flex;
     flex-direction: column;
     width: 400px;
-    
 
 }
 
-
-.iconos {
-    display: flex;
-    justify-content: center
-
-}
 
 .datos{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-left: 1em;
     
+    
+}
+.datos h5 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    justify-content: center;
+}
+
+.datos p {
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
 
 .boton {
    
     display: flex;
     justify-content: center;
-    align-items: center;
     color: white;
-    border: solid 1px #BEC1BB;
+ 
     background-color: #A491D2;
     margin-top: 2em;
     margin-bottom: 2em;
+    margin-left: 2em ;
+    margin-right: 2em;
 
 }
 
@@ -48,7 +54,7 @@ body {
     border: solid 1px #BEC1BB;
     margin: 0;
     padding: 0.6em;
-    padding-left: 0,5 em;
+  
 }
 
 .mano {
